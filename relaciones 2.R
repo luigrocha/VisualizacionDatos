@@ -319,7 +319,7 @@ plot(sat_cluster)
 covid19 <- read.table("https://covid19.who.int/WHO-COVID-19-global-data.csv" ,
                       sep=",", header=TRUE, stringsAsFactors=FALSE)
 
-covid19 <- read.table("/Users/lgrocha/Dropbox/Cursos/Maestria/Visualizacion\ de\ datos/worldometer_data.csv" ,
+covid19 <- read.table("/Users/lgrocha/Dropbox/Cursos/Maestria/Visualizacion\ de\ datos/worldometer_data.csv",
                       sep=",", header=TRUE, stringsAsFactors=FALSE)
 NROW(covid19)
 head(covid19)
@@ -374,12 +374,7 @@ ggplot(data=covid_mortality, aes(x=X, y=Y))+
 #4.- Visualizar Clusters
 covid_cluster <- Mclust(covid_mds)
 plot(covid_cluster)
-
-################################################################################
-################################################################################
-################################################################################
-################################################################################
-################################################################################
+####################################################3
 covid19SinNA
 #Mortalidad
 cols<- c(2,4)
